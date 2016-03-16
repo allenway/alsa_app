@@ -1,0 +1,260 @@
+pcmjob.o: pcmjob.c \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdio.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/features.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/cdefs.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/wordsize.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/gnu/stubs.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stddef.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/types.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/typesizes.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/libio.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/_G_config.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/wchar.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stdarg.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stdio_lim.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sys_errlist.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stdio.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdlib.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/waitflags.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/waitstatus.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/endian.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/endian.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/byteswap.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/xlocale.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/types.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/time.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/select.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/select.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sigset.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/time.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/sysmacros.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/pthreadtypes.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/alloca.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/string.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/string.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/string2.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sched.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sched.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/errno.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/errno.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/errno.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/errno.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/errno.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/errno-base.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/getopt.h \
+ /opt/arm-alsa/include/alsa/asoundlib.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/unistd.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/posix_opt.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/environments.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/confname.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/fcntl.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/fcntl.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/uio.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stat.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/assert.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/poll.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/poll.h \
+ /opt/arm-alsa/include/alsa/asoundef.h \
+ /opt/arm-alsa/include/alsa/version.h /opt/arm-alsa/include/alsa/global.h \
+ /opt/arm-alsa/include/alsa/input.h /opt/arm-alsa/include/alsa/output.h \
+ /opt/arm-alsa/include/alsa/error.h /opt/arm-alsa/include/alsa/conf.h \
+ /opt/arm-alsa/include/alsa/pcm.h /opt/arm-alsa/include/alsa/rawmidi.h \
+ /opt/arm-alsa/include/alsa/timer.h /opt/arm-alsa/include/alsa/hwdep.h \
+ /opt/arm-alsa/include/alsa/control.h /opt/arm-alsa/include/alsa/mixer.h \
+ /opt/arm-alsa/include/alsa/seq_event.h /opt/arm-alsa/include/alsa/seq.h \
+ /opt/arm-alsa/include/alsa/seqmid.h \
+ /opt/arm-alsa/include/alsa/seq_midi_event.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/time.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/math.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/huge_val.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/huge_valf.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/huge_vall.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/inf.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/nan.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/mathdef.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/mathcalls.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/mathinline.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/syslog.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/syslog.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/syslog-path.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/pthread.h \
+ /opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/setjmp.h \
+ alsaloop.h ../include/aconfig.h
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdio.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/features.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/cdefs.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/wordsize.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/gnu/stubs.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stddef.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/types.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/typesizes.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/libio.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/_G_config.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/wchar.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stdarg.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stdio_lim.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sys_errlist.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stdio.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdlib.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/waitflags.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/waitstatus.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/endian.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/endian.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/byteswap.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/xlocale.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/types.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/time.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/select.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/select.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sigset.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/time.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/sysmacros.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/pthreadtypes.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/alloca.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/string.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/string.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/string2.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sched.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sched.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/errno.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/errno.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/errno.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/errno.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/errno.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/errno-base.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/getopt.h:
+
+/opt/arm-alsa/include/alsa/asoundlib.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/unistd.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/posix_opt.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/environments.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/confname.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/fcntl.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/fcntl.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/uio.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stat.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/assert.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/poll.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/poll.h:
+
+/opt/arm-alsa/include/alsa/asoundef.h:
+
+/opt/arm-alsa/include/alsa/version.h:
+
+/opt/arm-alsa/include/alsa/global.h:
+
+/opt/arm-alsa/include/alsa/input.h:
+
+/opt/arm-alsa/include/alsa/output.h:
+
+/opt/arm-alsa/include/alsa/error.h:
+
+/opt/arm-alsa/include/alsa/conf.h:
+
+/opt/arm-alsa/include/alsa/pcm.h:
+
+/opt/arm-alsa/include/alsa/rawmidi.h:
+
+/opt/arm-alsa/include/alsa/timer.h:
+
+/opt/arm-alsa/include/alsa/hwdep.h:
+
+/opt/arm-alsa/include/alsa/control.h:
+
+/opt/arm-alsa/include/alsa/mixer.h:
+
+/opt/arm-alsa/include/alsa/seq_event.h:
+
+/opt/arm-alsa/include/alsa/seq.h:
+
+/opt/arm-alsa/include/alsa/seqmid.h:
+
+/opt/arm-alsa/include/alsa/seq_midi_event.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/time.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/math.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/huge_val.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/huge_valf.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/huge_vall.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/inf.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/nan.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/mathdef.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/mathcalls.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/mathinline.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/syslog.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/syslog.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/syslog-path.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/pthread.h:
+
+/opt/Embedsky/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/setjmp.h:
+
+alsaloop.h:
+
+../include/aconfig.h:
